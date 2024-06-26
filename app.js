@@ -1,3 +1,4 @@
+// Função que sorteia os números e mostra na tela
 function sortear(){
     let quantidade = document.getElementById('quantidade').value;
     let de = document.getElementById('de').value;
