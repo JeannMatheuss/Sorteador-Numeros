@@ -22,13 +22,13 @@ function sortear(){
 
         while (sorteados.includes(numero)) {
             numero = obterNumeroAleatorio(de, ate);
-            alert('Tentando obeter número inédito')
+            alert('Tentando obter número inédito')
         }
 
         sorteados.push(numero);
     }
 
-    let resultado = documente.getElementById('resultado');
+    let resultado = document.getElementById('resultado');
     resultado.innerHTML = `<label class="texto__paragrafo">Números sorteados: ${sorteados}</label>`
     alterarStatusBotao();
 }
